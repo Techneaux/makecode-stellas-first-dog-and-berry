@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    // d
+    // show dog
     images.createImage(`
         # # # # .
         # # # # .

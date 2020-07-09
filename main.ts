@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    // d
     images.createImage(`
         # # # # .
         # # # # .
@@ -8,6 +9,7 @@ input.onButtonPressed(Button.A, function () {
         `).showImage(0)
 })
 input.onButtonPressed(Button.B, function () {
+    // scroll berry
     images.createBigImage(`
         . . . . . . . . . .
         . . . . # # . . . .
@@ -15,6 +17,7 @@ input.onButtonPressed(Button.B, function () {
         . . . # # # # . . .
         . . . # # # # . . .
         `).scrollImage(1, 200)
+    // hide berry
     images.createImage(`
         . . . . .
         . . . . .
@@ -23,6 +26,7 @@ input.onButtonPressed(Button.B, function () {
         . . . . .
         `).showImage(0)
 })
+// show fun shape
 images.createImage(`
     # # . . #
     # . # . .
